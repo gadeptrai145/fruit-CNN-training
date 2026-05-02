@@ -16,3 +16,13 @@ drive.mount('/content/drive')
 # Chạy train
 
 !python Fruit_CNN_Training.py --data_dir /content/drive/MyDrive/dataset --save_dir /content/model.h5 --epochs 25
+
+# Cấu trúc file dataset
+
+dataset/
+
+--apple/
+ 
+--banana/
+ 
+--orange/
