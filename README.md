@@ -3,7 +3,7 @@ Chạy trên Google Colab
 
 # Clone repo
 
-!git clone https://github.com/gadeptrai145/fruit-cnn-project.git
+!git clone https://github.com/gadeptrai145/fruit-CNN-training
 
 %cd fruit-cnn-project
 
@@ -15,4 +15,4 @@ drive.mount('/content/drive')
 
 # Chạy train
 
-!python train_fruit.py --data_dir /content/drive/MyDrive/dataset --save_dir /content/model.h5 --epochs 10
+!python Fruit_CNN_Training.py --data_dir /content/drive/MyDrive/dataset --save_dir /content/model.h5 --epochs 25
